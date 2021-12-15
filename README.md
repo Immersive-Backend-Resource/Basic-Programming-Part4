@@ -1,27 +1,32 @@
-## Cara mengerjakan tugas hari ke 3
+## Cara mengerjakan tugas hari ke 4
 
 clone project ini dengan cara
 
 ```
-git clone https://github.com/BE-Sirclo/Basic-Programming-Part4.git
+git clone https://github.com/ALTA-Immersive-BE5/Basic-Programming-Part4.git
 ```
 
-`setelah clone selesai, pindah ke folder hasil clone` -> HAL INI DILAKUKAN 1x saja
+setelah clone selesai, `pindah ke folder hasil clone`
 
 lalu jalankan 
 
 ```
-rm -rf .git
 chmod 777 ./execute.sh
 ```
 
-setelah menjalankan perintah diatas, lakukan inisialisasi ulang untuk git dengan 
-
-```
-git init
-```
-
+setelah menjalankan perintah diatas, 
 buat repository pada github organization kalian denga format: `Basic-Programming-Part4`
+
+Tambahkan remote menuju repository yang telah kalian buat. 
+`JANGAN MENGGUNAKAN NAMA ORIGIN`
+
+```
+git remote add nama-remote url-repository-kalian
+```
+
+`LAKUKAN PUSH KE REMOTE YANG BARU!` ~ Done
+
+
 
 ## Tatacara Pengerjaan Tugas
 
